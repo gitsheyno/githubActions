@@ -7,7 +7,7 @@ test("it should render the component", () => {
   screen.debug();
 
   const inputElement = input.getByRole("textbox") as HTMLInputElement;
-  const headingElement = input.getByRole("heading", { level: 1 });
+  const headingElement = input.getByRole("heading");
 
   expect(inputElement.innerHTML).toBe("");
   expect(headingElement.textContent).toBe("");

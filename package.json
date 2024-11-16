@@ -9,11 +9,13 @@
     "lint": "eslint .",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "typecheck": "^0.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
