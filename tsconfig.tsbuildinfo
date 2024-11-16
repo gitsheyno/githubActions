@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/counter/counter.tsx","./src/components/counter/__test__/counter.test.tsx","./src/components/unerinput/userinput.tsx","./src/components/unerinput/__test__/userinput.test.tsx"],"version":"5.6.3"}
