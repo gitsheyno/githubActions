@@ -10,6 +10,10 @@ export default defineConfig({
       ["**/*.test.tsx", "jsdom"],
       ["**/*.component.test.ts", "jsdom"],
     ],
+    coverage: {
+      provider: "v8",
+      reporter: ["text", "json", "html"],
+    },
     // setupFiles: "/utils/test/setup.ts",
   },
 });
