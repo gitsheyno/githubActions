@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: artifacts tests
-          path: src/components/userInput/__test__/UserInput.test.ts
+          path: src/components/userInput/__test__/UserInput.test.tsx
 
   test:
     runs-on: ubuntu-latest
