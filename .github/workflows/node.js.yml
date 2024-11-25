@@ -28,9 +28,15 @@ jobs:
       - run: npm run coverage
       - run: npm run typecheck
 
+      - name: Archive Test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: artifacts tests
+          path: src/components/userInput/__test__/UserInput.test.ts
+
   test:
     runs-on: ubuntu-latest
-
+    needs: [build]
     strategy:
       matrix:
         node-version: [18.x, 20.x, 22.x]
